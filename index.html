@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>jeu du morpion</title>
+</head>
+<body>
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="stylesheet" type="text/css" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+		<thead>
+			<input type="text" id="p1">joueur 1
+			<input type="text" id="p2">joueur 2
+		</thead>
+<div class="container">
+	<div class="col-md-4"></div>
+	<div class="col-md-4">
+		<table class="table table-bodered table-striped">
+			<tbody>
+					<tr value=1>
+						<td><button class ="btn btn-secondary btn-lg" value=1></button></td>
+						<td><button class="btn btn-secondary btn-lg" value=2></button></td>
+						<td><button class="btn btn-secondary btn-lg" value=3></button></td>
+					</tr>
+					<tr value=2>
+						<td><button class="btn btn-secondary btn-lg" value ="1"></button></td>
+						<td><button class="btn btn-secondary btn-lg" value ="2"></button></td>
+						<td><button class="btn btn-secondary btn-lg" value ="3"></button></td>
+					</tr>
+					<tr value="3">
+						<td><button class="btn btn-secondary btn-lg" value="1"></button></td>
+						<td><button class="btn btn-secondary btn-lg" value="2"></button></td>
+						<td><button class="btn btn-secondary btn-lg" value="3"></button></td>
+					</tr>
+			</tbody>
+		</table>
+	</div>
+	<div class="col-md-4"></div>
+		<button id="playAgain">jouer encore</button>
+</div>
+
+
+<script type="text/javascript" src="node_modules/jquery/dist/jquery.js"></script>
+<script type="text/javascript" src="app.js"></script>
+</body>
+</html>
